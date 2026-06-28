@@ -1,0 +1,76 @@
+nav ul {
+    gap: 20px;
+    /*gap: distancia entre os itens do menu */
+    padding-top: 30px;
+    display: flex;
+    /* display: flex: deixa os itens na vertical */
+    justify-content: center;
+    /* justify-content: center: alinha os itens */
+    list-style: none;
+    float: left;
+    padding-left: 80px;
+
+    color: #54736e;
+    font-size: large;
+
+}
+
+a {
+    color: #194756;
+    text-decoration: none;
+}
+
+.fotosPrincipal{
+    height: 100px;
+    margin-left: 70px;
+}
+
+body {
+    background-color: #f2eabc;
+}
+
+.foto {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    /* object-fit: cover: estica a imagem pra que encaixe */
+    margin-left: 200px;
+    float: left;
+
+}
+
+.infos {
+    color: #194756;
+    padding-left: 285px;
+    float: left;
+}
+
+.infoPrincipal {
+    float: left;
+    padding-left: 40px;
+}
+
+.p {
+    padding-left: 525px;
+    padding-right: 280px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    /* deixa ele fixo */
+    bottom: 0;
+    /* distancia borda inferior deixa ele colado*/
+    left: 0;
+
+    float: left;
+    background-color: #54736e;
+    padding: 15px 0;
+    height: 50px;
+    width: 100%;
+
+    font-size: large;
+    color: white;
+}
+

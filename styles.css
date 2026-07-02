@@ -1,0 +1,125 @@
+.main {
+    background-color: white;
+    width: 1100px;
+    margin: 0 auto;
+    /* centraliza */
+    min-height: 100vh;
+    /* ocupa a tela inteira */
+}
+
+nav ul {
+    gap: 20px;
+    /*gap: distancia entre os itens do menu */
+    padding-top: 30px;
+    display: flex;
+    /* display: flex: deixa os itens na vertical */
+    justify-content: center;
+    /* justify-content: center: alinha os itens */
+    list-style: none;
+    float: left;
+    padding-left: 80px;
+
+    color: #54736e;
+    font-size: large;
+}
+nav a:hover{
+    color: #008C43;
+    font-size: 19px;
+}
+nav a{
+    transition: 0.3s;
+}
+
+a {
+    color: #194756;
+    text-decoration: none;
+}
+
+.fotosPrincipal {
+    height: 200px;
+    margin-left: -10px;
+}
+
+body {
+    margin: 0;
+    background-image: url(imagens/Gemini_Generated_Image_8cxcjt8cxcjt8cxc.png);
+}
+
+.foto {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    /* object-fit: cover: estica a imagem pra que encaixe */
+    margin-left: 160px;
+    float: left;
+
+}
+
+.infos {
+    color: #194756;
+    padding-left: 225px;
+    float: left;
+}
+
+.infoPrincipal {
+    float: left;
+    padding-left: 40px;
+}
+
+.p {
+    padding-left: 525px;
+    padding-right: 280px;
+}
+
+footer {
+    gap: 120px;
+    text-align: center;
+    /* position: fixed; */
+    /* deixa ele fixo */
+    bottom: 0;
+    /* distancia borda inferior deixa ele colado*/
+    left: 0;
+
+    float: left;
+    background-color: #008C43;
+    padding: 15px 0;
+    width: 100%;
+    align-items: center;
+
+    font-size: large;
+    color: white;
+    display: flex;
+    font-size: 20px;
+}
+
+.slogan {
+    height: 120px;
+    padding-left: 10px;
+    clip-path: inset(0 8px 0 0);/* corta a parte direita da imagem, ela ficou com uma parte branca na direita */
+}
+.youtube:hover{
+    transform: scale(1.3);
+    color: #FF0033;
+}
+.youtube{
+    color: white;
+    transition: 0.3s;
+}
+
+.whatsapp:hover{
+    transform: scale(1.3);
+    color: rgb( 37, 211, 102);
+}
+.whatsapp{
+    color: white;
+    transition: 0.3s;
+}
+.facebook:hover{
+    transform: scale(1.3);
+    color: #1877F2;
+}
+.facebook{
+    color: white;
+    transition: 0.3s;
+}

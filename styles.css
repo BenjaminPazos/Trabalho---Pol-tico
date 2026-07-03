@@ -4,7 +4,7 @@
     width: 1100px;
     margin: 10px auto;
     /* centraliza */
-    min-height: 100vh;
+    min-height: 110vh;
     /* ocupa a tela inteira */
     border-radius: 20px;
 
@@ -75,7 +75,6 @@ body {
 }
 
 .infoPrincipal {
-    /* float: left; */
     padding: 40px;
     padding-left: 40px;
 }

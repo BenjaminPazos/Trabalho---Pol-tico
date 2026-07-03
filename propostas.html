@@ -13,13 +13,57 @@
     <title>Politico</title>
     <link rel="shortcut icon" href="imagens/11341462.png">
 
+    <style>
+        .propostas{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            padding: 40px;
+        }
+
+        .proposta{
+
+            background: white;
+
+            border-left: 8px solid #008C43;
+
+            border-radius: 12px;
+
+            padding: 20px;
+
+            box-shadow: 0 3px 8px rgba(0,0,0,.12);
+
+            transition: .3s;
+        }
+
+        .proposta:hover{
+
+            transform: translateX(5px);
+
+        }
+
+        .proposta h3{
+
+            color: #0B3C5D;
+
+            margin-top: 0;
+        }
+
+        .proposta p{
+
+            font-family: "Open Sans", sans-serif;
+
+            line-height: 1.7;
+        }
+        </style>
 </head>
 
 <body>
     <main class="main">
         <!-- informações do candidato -->
         <section class="infos">
-            <h1>Quatinaldo Jr</h1>
+            <a href="index.html"><h1>Quatinaldo Jr</h1></a>
         </section>
         <!-- fim informações -->
 
@@ -40,20 +84,45 @@
             <!-- fim menu -->
         </section>
 
-        <!-- parte principal -->
-        <section class="infoPrincipal">
-            <a href="index.html"><img src="imagens/Gemini_Generated_Image_bntsbpbntsbpbnts.png" class="foto"></a> 
+        <!-- parte principal -->    
+        <section class="propostas">
 
-            <h3 class="pp"> <i class="fa-solid fa-chevron-right"></i> Quem eu sou?</h3>
-            <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur provident reprehenderit
-                perspiciatis minus blanditiis? Adipisci voluptatem repellat optio cupiditate fuga, culpa sint debitis,
-                qui cumque corrupti commodi hic, eaque distinctio?</p>
-            <h3 class="pp"> <i class="fa-solid fa-chevron-right"></i> Meu paritdo</h3>
+            <div class="proposta">
+                <h3>
+                    <i class="fa-solid fa-leaf"></i>
+                    Teste
+                </h3>
 
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ipsa quos suscipit explicabo, fugiat nostrum perferendis deserunt unde quidem. Animi eveniet dolorem in veritatis laborum! Ipsam alias hic nisi repellendus?
+                    Non sunt exercitationem similique voluptates dignissimos, accusamus in. Modi delectus deserunt rem dignissimos dolorum voluptatem inventore qui laborum quis error id placeat rerum perspiciatis nam iste, quasi ipsa, neque hic?
+                </p>
+            </div>
 
+            <div class="proposta">
+                <h3>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Teste
+                </h3>
 
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex pariatur fugit impedit labore quos maiores cupiditate a minima, harum cum laboriosam architecto in, error culpa dicta laudantium doloribus soluta eum!
+                    Iste magni veniam vitae consequatur voluptatum voluptates error deleniti. Error, nostrum quo. Laudantium autem illum unde labore libero dolores dignissimos quae maxime obcaecati minima placeat, cum enim soluta, ducimus ab.
+                </p>
+            </div>
 
-            <!-- fim parte principal -->
+            <div class="proposta">
+                <h3>
+                    <i class="fa-solid fa-road"></i>
+                    Teste
+                </h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi vitae fugit, incidunt consequatur, beatae blanditiis dignissimos voluptates molestiae repudiandae fugiat odio ducimus possimus porro, in ipsum at quod tenetur.
+                    Ipsa blanditiis excepturi dolorum temporibus sapiente, voluptate aliquam non ullam. A, quod iste! Ipsa reiciendis officiis architecto, at non saepe? Fugit quod vel facilis sequi possimus cumque, sint voluptas corporis?
+                </p>
+            </div>
+
         </section>
     </main>
     <!-- rodape -->

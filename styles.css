@@ -3,15 +3,16 @@
     background-color: white;
     width: 1100px;
     margin: 10px auto;
-
-
     /* centraliza */
     min-height: 100vh;
     /* ocupa a tela inteira */
-    border-radius: 3%;
+    border-radius: 20px;
 
 }
 
+nav {
+    width: 100%;
+}
 nav ul {
     font-family: "Open Sans", sans-serif;
     gap: 20px;
@@ -22,7 +23,7 @@ nav ul {
     justify-content: center;
     /* justify-content: center: alinha os itens */
     list-style: none;
-    padding-left: 30px;
+    padding-left: 0px;
 
     color: #54736e;
     font-size: large;
@@ -56,22 +57,19 @@ body {
 }
 
 .foto {
-
     border: solid 2px #D4AF37;
     border-radius: 50%;
     height: 300px;
     width: 300px;
-    object-fit: cover;
-    /* object-fit: cover: estica a imagem pra que encaixe */
-    margin-left: 140px;
+    object-fit: cover; /* object-fit: cover: estica a imagem pra que encaixe */
     float: left;
-
+    margin: 0 20px 15px 0;
 }
 
 .infos {
     font-family: "Oswald", sans-serif;
     color: #194756;
-    padding-left: 210px;
+    padding-left:80px;
     float: left;
     font-size: 22px;
 }
@@ -83,24 +81,25 @@ body {
 }
 
 .p {
+    font-size: 19px;
     line-height: 1.7;
     color: #333333;
     font-family: "Open Sans", sans-serif;
-
-    margin-left: 500px;
+    margin-left: 50px;
     margin-right: 30px;
 
 }
 
 .pp {
 
-
+    font-size: 19px;
     color: #0B3C5D;
     font-family: "Open Sans", sans-serif;
 
-    padding-left: 525px;
+    padding-left: 50px;
     padding-right: 280px;
 }
+
 
 footer {
     gap: 80px;
